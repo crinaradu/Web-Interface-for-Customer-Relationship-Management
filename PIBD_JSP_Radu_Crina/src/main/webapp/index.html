@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem de Administrare al Clienților</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background: url('https://singapore.intercontinental.com/sites/ihg-sg/files/inline-images/InterContinental-Singapore---The-Lobby-Lounge---Cakes775x500.jpg') center center fixed;
+            background-size: cover;
+            padding-top: 20px;
+            color: white; /* Setează culoarea textului la alb pentru a contrasta cu imaginea de fundal */
+        }
+
+        h2 {
+            margin-top: 20px;
+            color: white; /* Setează culoarea textului la alb pentru titlu */
+            font-family: 'Arial', sans-serif; /* Stilizează fontul */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adaugă un umbrele ușoară pentru evidențiere */
+        }
+
+        hr {
+            margin-top: 20px;
+            border-top: 2px solid #007bff;
+        }
+
+        .btn-container {
+            margin-top: 20px;
+        }
+
+        .btn-custom {
+            min-height: 100px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <hr>
+        <h2 class="text-center">Sistem de Administrare al Clienților</h2>
+        <div class="row btn-container">
+            <div class="col-md-4">
+                <a href="tabela_Clienti.jsp" class="btn btn-primary btn-block btn-custom">Clienti</a>
+            </div>
+            <div class="col-md-4">
+                <a href="tabela_Comenzi.jsp" class="btn btn-success btn-block btn-custom">Comenzi</a>
+            </div>
+            <div class="col-md-4">
+                <a href="tabela_Furnizori.jsp" class="btn btn-info btn-block btn-custom">Furnizori</a>
+            </div>
+        </div>
+        <hr>
+        <div class="row btn-container">
+            <div class="col-md-4">
+                <a href="modifica_Client.jsp" class="btn btn-warning btn-block btn-custom">Modifica Clienti</a>
+            </div>
+            <div class="col-md-4">
+                <a href="modifica_Comanda.jsp" class="btn btn-danger btn-block btn-custom">Modifica Comenzi</a>
+            </div>
+            <div class="col-md-4">
+                <a href="modifica_Furnizor.jsp" class="btn btn-secondary btn-block btn-custom">Modifica Furnizor</a>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
